@@ -1,0 +1,76 @@
+.page-container {
+  background-image: url('../Asserts/Background.jpg'); 
+}
+
+.register-page {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+}
+
+.register-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-page form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.register-page label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-page input,
+.register-page select,
+.register-page button {
+  width: 100%;
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box;
+  display: block; 
+  margin: 0 auto; 
+}
+
+.register-page input,
+.register-page select {
+  margin-bottom: 15px; 
+}
+
+.register-page button {
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-page button:hover {
+  background-color: #218838;
+}
+
+.register-page p span {
+  color: blue;
+  cursor: pointer;
+}
+
+
+.admin-user-page button {
+  background-color: rgb(220, 52, 52);
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-user-page button:hover {
+  background-color: rgb(177, 35, 35);
+}
